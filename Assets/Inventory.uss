@@ -1,0 +1,125 @@
+:root {
+}
+
+.intventory-panel {
+    width: 845px;
+    height: 900px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+    margin-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-color: rgb(200, 160, 38);
+    border-left-color: rgb(200, 160, 38);
+    border-right-color: rgb(200, 160, 38);
+    border-bottom-color: rgb(200, 160, 38);
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-bottom-width: 10px;
+    border-right-width: 10px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.inventory-title {
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    -unity-text-align: upper-center;
+    margin-bottom: 20px;
+}
+
+.slot-grid {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(93, 94, 97);
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.info-box {
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    margin-top: 20px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.info-text {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.inventory-slot {
+    width: 160px;
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inventory-slot:hover {
+    background-color: rgb(128, 128, 128);
+    border-color: yellow;
+}
+
+.slot-icon {
+    width: 120px;
+    height: 120px;
+}
+
+.slot-label {
+    position: absolute;
+    -unity-font-style: bold;
+    text-allign: right;
+    right: 8px;
+    bottom: 8px;
+    font-size: 20px;
+}
