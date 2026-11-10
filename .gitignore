@@ -81,7 +81,7 @@ mono_crash.*
 crashlytics-build.properties
 
 # TestRunner generated files
-InitTestScene*.unity*
+#InitTestScene*.unity*
 
 # Addressables default ignores, before user customizations
 /ServerData
