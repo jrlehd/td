@@ -6,6 +6,10 @@ using UnityEngine.UIElements;
 
 public class InventoryController : MonoBehaviour
 {
+    //유니티 깃허브 연동 확인합니다
+    //잘 적용되는지 확인합니다.
+
+
     PanelRenderer renderer;         //Inspecter에서 볼 수 있는 애
     VisualElement slotContainer;    //UI툴킷 창을 열어야 보이는 애들
     Label itemInfoLable;            //UI툴킷 창을 열어야 보이는 애들
